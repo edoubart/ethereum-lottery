@@ -1,0 +1,48 @@
+Arguments: 
+  /Users/edoubart/.nvm/versions/node/v8.9.1/bin/node /usr/local/Cellar/yarn/1.3.2/libexec/bin/yarn.js install
+
+PATH: 
+  /Users/edoubart/.rvm/gems/ruby-2.4.1/bin:/Users/edoubart/.rvm/gems/ruby-2.4.1@global/bin:/Users/edoubart/.rvm/rubies/ruby-2.4.1/bin:/Users/edoubart/.nvm/versions/node/v8.9.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/edoubart/.rvm/bin
+
+Yarn version: 
+  1.3.2
+
+Node version: 
+  8.9.1
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "lottery",
+    "version": "0.0.1",
+    "description": "Blockchain based lottery using Ethereum & Solidity",
+    "main": "index.js",
+    "scripts": {
+      "test": "mocha"
+    },
+    "author": "Edouard Barthelemy",
+    "license": "ISC",
+    "dependencies": {
+      "dotenv": "^5.0.0",
+      "ganache-cli": "^6.0.3",
+      "mocha": "^5.0.1",
+      "solc": "^0.4.20",
+      "truffle-hdwallet-provider": "^0.0.3",
+      "web3": "1.0.0-beta.30"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: https://registry.yarnpkg.com/dotenv: ETIMEDOUT
+      at Timeout._onTimeout (/usr/local/Cellar/yarn/1.3.2/libexec/lib/cli.js:123749:19)
+      at ontimeout (timers.js:475:11)
+      at tryOnTimeout (timers.js:310:5)
+      at Timer.listOnTimeout (timers.js:270:5)

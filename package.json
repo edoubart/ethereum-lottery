@@ -1,0 +1,19 @@
+{
+  "name": "ethereum-lottery",
+  "version": "1.0.0",
+  "description": "Intermediate Smart Contract: Blockchain based lottery using Ethereum & Solidity",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Edouard Barthelemy",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^5.0.0",
+    "ganache-cli": "^6.0.3",
+    "mocha": "^5.0.1",
+    "solc": "^0.4.20",
+    "truffle-hdwallet-provider": "^0.0.3",
+    "web3": "1.0.0-beta.30"
+  }
+}
